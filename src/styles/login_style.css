@@ -31,6 +31,7 @@
     background-color: #2ea44f;
     border-color: rgba(27,31,35,.15);
     box-shadow: 0 1px 0 rgba(27,31,35,.1),inset 0 1px 0 hsla(0,0%,100%,.03);
+    padding: 10px;
 }
 .button_register{
     right: 16px;
@@ -46,7 +47,7 @@ input{
     border-radius: 6px;
     outline: none;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 30px;
 }
 input, button{
     margin: 4px;
@@ -58,4 +59,18 @@ input, button{
     left: 50%;
     transform: translateX(-50%);
     top: 64px;
+}
+
+#i-letter{
+    font-size: 1.5em;
+    color: #F60C87;
+}
+
+.l-letter{
+    font-size: 1.5em;
+    color: #509FCB;
+}
+
+#w-letter{
+    font-size: 1.5em;
 }

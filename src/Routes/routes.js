@@ -1,6 +1,7 @@
 import React from 'react';
 import  Home  from '../pages/Home';
 import Login from '../pages/Login';
+import Register from '../pages/Register';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
 export default class Routes extends React.Component {
@@ -13,6 +14,7 @@ export default class Routes extends React.Component {
               <Redirect to="/Home" />
             </Route>
             <Route exact path="/Login" component={Login} />
+            <Route exact path="/Signup" component={Register} />
           </Switch>
         </div>
     );
