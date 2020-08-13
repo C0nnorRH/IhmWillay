@@ -5,7 +5,7 @@ class ExampleComponent extends React.Component{
     render(){
         return(
             <div>
-                <h1 className="title_banner" >Hola quetal</h1>
+                <h1 className="title_banner" >Hoa quetal</h1>
             </div>
         )
     }
