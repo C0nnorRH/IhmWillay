@@ -1,0 +1,10 @@
+.login_box_primary{
+    align-self: center;
+}
+.login_box_secundary{
+    border-width: 2px;
+    border: black;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
