@@ -34,6 +34,10 @@
     box-shadow: 0 1px 0 rgba(27,31,35,.1),inset 0 1px 0 hsla(0,0%,100%,.03);
     padding: 10px;
     font-size: 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 8px;
 }
 .button_register{
     right: 16px;

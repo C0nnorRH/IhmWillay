@@ -30,7 +30,7 @@ const block_register = (props) =>{
                         <input id="pwd" placeholder="Contraseña" type="password"></input>
                         <label className="formlabel" for="repwd" >Confirmar contraseña</label>
                         <input id="repwd" placeholder="Confirmar contraseña" type="password"></input>
-                        <button className="button_sigin">Registrarse</button>
+                        <Link to= "/login" className="button_sigin">Registrarse</Link>
                     </>
                 }
             </div>

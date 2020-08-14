@@ -161,6 +161,9 @@ footer h5{
     margin: 32px;   
 }
 
+.center:hover{
+    background-color: #151515;
+}
   
 .home_link{
       background-color: yellow;

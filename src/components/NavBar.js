@@ -13,7 +13,7 @@ class NavBar  extends React.Component{
             </svg>
         </div>
         
-        <div id="header-title">
+        <div id="header-title" className="headerpro">
             <h2><text id="w-letter">W</text><text id="i-letter">i</text><text class="l-letter">l</text><text class="l-letter">l</text><text class="l-letter">a</text><text class="l-letter">y</text></h2>
         </div>
         <nav id="nav-bar" >
