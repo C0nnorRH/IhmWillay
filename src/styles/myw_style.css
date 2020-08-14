@@ -24,13 +24,12 @@
     border-color: black;
     background-color: blueviolet;
     border-width: thick;
-    margin-left: 0;
     margin-right: 0;
     border-radius: 0.25rem;
     width: 100%;
 }
 
-#email{
+#email-lister{
     margin-left: 1%;
     margin-right: 1%;
     margin-bottom: 1%;

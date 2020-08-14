@@ -1,8 +1,10 @@
 import React from 'react'
 import logo_profile from "../profile.png"
 import { Link } from 'react-router-dom';
+import users from "../data/users.json"
 
 const block_register = (props) =>{
+
     return(
         <div className="login_box_primary">
             <img className="img_sigin" src={logo_profile} alt="Imagen del Perfil" width="128" height="128"/>  
@@ -14,7 +16,14 @@ const block_register = (props) =>{
                             <input id="email" placeholder="Correo Electronico"></input>
                             <label className="formlabel" for="pwd" >Contraseña</label>
                             <input id="pwd" placeholder="Contraseña" type="password"></input>
-                            <button className="button_sigin">Iniciar Sesión</button>
+                            <button  
+                                className="button_sigin"
+                                onClick={users.map((user) =>{
+                                     if(user.email == "j.brito@willay.com"){
+                                        console.log("/MyWillay")
+                                     }
+                                    })}
+                            >Iniciar Sesión</button>
                         </> 
                     :
                     <>

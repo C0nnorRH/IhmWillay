@@ -1,13 +1,14 @@
 #w-container{
     justify-content: center;
     align-items: center;
-    width: 10%;
+    width: 13%;
     background-color: #f1f1f1;
     height: 100%;
     overflow: auto;
     padding-left: 5%;
     padding-right: 5%;
     border-color: black;
+    position: fixed;
 }
 
 #w-container a{

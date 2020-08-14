@@ -1,8 +1,8 @@
 import React from 'react'
 import Block from '../components/block_register'
-import { Component } from 'react'
 import "../styles/login_style.css"
 import { Link } from 'react-router-dom';
+import users from '../data/users.json'
 
 
 class Login extends React.Component{
