@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "name": "Juan Brito",
+        "email": "j.brito@willay.com",
+        "photo_url": "https://cdn.pixabay.com/photo/2018/01/03/21/31/portrait-3059314_960_720.jpg",
+        "password": "Juan123",
+        "is_logged": true
+    }
+]
