@@ -77,3 +77,11 @@
 #w-letter{
     font-size: 1.5em;
 }
+.opcs{
+    padding: 18px;
+}
+.opcs:hover{
+    background-color: #D8D8D8;
+    outline: none;
+    border-radius: 16px;
+}

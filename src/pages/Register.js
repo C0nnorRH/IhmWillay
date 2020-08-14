@@ -5,7 +5,7 @@ import "../styles/login_style.css"
 import { Link } from 'react-router-dom';
 
 
-class Login extends React.Component{
+class Register extends React.Component{
  render(){
      return(
      <div className="container">
@@ -14,10 +14,10 @@ class Login extends React.Component{
                 <h1><text id="w-letter">W</text><text id="i-letter">i</text><text class="l-letter">l</text><text class="l-letter">l</text><text class="l-letter">a</text><text class="l-letter">y</text></h1>
             </Link>
         </div>
-        <Block login = {0}/>       
+        <Block login={1}/>       
      </div>
      )
  }
 }
 
-export default Login;
+export default Register;

@@ -8,9 +8,18 @@ class Home extends React.Component{
  render(){
      return(<>
         <NavBar />
-        <section id="form-container">
-            <button id="blogin">Iniciar Sesión</button>
-            <button id="bregister">Registrarse</button>
+        <section id="form-container" role="banner">
+            <h1>
+                Bienvenido a uno de los mejores gestores de correos electronicos
+            </h1>
+            <div>
+                <Link to="/login" className="center">
+                    Iniciar Sesión
+                </Link>
+                <Link to="/signup" className="center">
+                    Registrarse
+                </Link>
+            </div>
         </section>
         <section id="features">
         <div class="features-container">

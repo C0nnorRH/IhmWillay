@@ -31,6 +31,8 @@
     background-color: #2ea44f;
     border-color: rgba(27,31,35,.15);
     box-shadow: 0 1px 0 rgba(27,31,35,.1),inset 0 1px 0 hsla(0,0%,100%,.03);
+    padding: 10px;
+    font-size: 24px;
 }
 .button_register{
     right: 16px;
@@ -45,17 +47,35 @@ input{
     border: 1px solid #e1e4e8;
     border-radius: 6px;
     outline: none;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: medium;
+    line-height: 30px;
 }
 input, button{
     margin: 4px;
     border-radius: 6px;
     padding: 5px 12px;
 }
+.formlabel{
+    margin: 4px 4px 8px;
+    font-size: large;
+}
 .img_sigin{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     top: 64px;
+}
+
+#i-letter{
+    font-size: 1.5em;
+    color: #F60C87;
+}
+
+.l-letter{
+    font-size: 1.5em;
+    color: #509FCB;
+}
+
+#w-letter{
+    font-size: 1.5em;
 }
