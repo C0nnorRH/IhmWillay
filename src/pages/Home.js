@@ -23,7 +23,7 @@ class Home extends React.Component{
                 </div>
             </div>
         </section>
-        <section id="features">
+        <section id="features" style={{backgroundColor:"#faf6d9", margin: "0px"}}>
         <div class="features-container">
             <svg class="svg-image" viewBox="0 0 24 24">
                 <path fill="rgb(176,69,154, 0.75)" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" />
