@@ -16,7 +16,7 @@ class NavBar  extends React.Component{
         <div id="header-title">
             <h2><text id="w-letter">W</text><text id="i-letter">i</text><text class="l-letter">l</text><text class="l-letter">l</text><text class="l-letter">a</text><text class="l-letter">y</text></h2>
         </div>
-        <nav id="nav-bar">
+        <nav id="nav-bar" >
             <Link to='/login' class="nav-link opcs"> Iniciar Sesión</Link> 
             <Link to='/signup' class="nav-link opcs"> Registrarse</Link>    
             <Link to='/login' class="nav-link opcs"> Contacto</Link>        

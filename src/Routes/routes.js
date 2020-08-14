@@ -14,7 +14,7 @@ export default class Routes extends React.Component {
               <Redirect to="/Home" />
             </Route>
             <Route exact path="/Login" component={Login} />
-            <Route exact path="/Signup" component={Register} />
+            <Route exact path="/Signup" component={Register} />            
           </Switch>
         </div>
     );
