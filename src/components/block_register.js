@@ -12,8 +12,8 @@ const block_register = (props) =>{
                 {
                     props.login == 0 ?
                         <>  
-                            <label className="formlabel" for="email" >Correo Electronico</label>
-                            <input id="email" placeholder="Correo Electronico"></input>
+                            <label className="formlabel" for="email_login" >Correo Electronico</label>
+                            <input id="email_login" placeholder="Correo Electronico"></input>
                             <label className="formlabel" for="pwd" >Contraseña</label>
                             <input id="pwd" placeholder="Contraseña" type="password"></input>
                             <button  
@@ -31,8 +31,8 @@ const block_register = (props) =>{
                         <input id="Nombre" placeholder="Nombre"></input>
                         <label className="formlabel" for="apellido" >Apellido</label>
                         <input id="apellido" placeholder="Apellido"></input>
-                        <label className="formlabel" for="email" >Correo Electronico</label>
-                        <input id="email" placeholder="Correo Electronico"></input>
+                        <label className="formlabel" for="email_signup" >Correo Electronico</label>
+                        <input id="email_signup" placeholder="Correo Electronico"></input>
                         <label className="formlabel" for="pwd" >Contraseña</label>
                         <input id="pwd" placeholder="Contraseña" type="password"></input>
                         <label className="formlabel" for="repwd" >Confirmar contraseña</label>
