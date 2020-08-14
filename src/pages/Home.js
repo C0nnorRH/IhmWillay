@@ -9,7 +9,7 @@ class Home extends React.Component{
      return(<>
         <NavBar />
         <section id="form-container" role="banner">
-            <h1>
+            <h1 className="welcome_text">
                 Bienvenido a uno de los mejores gestores de correos electronicos
             </h1>
             <div>
