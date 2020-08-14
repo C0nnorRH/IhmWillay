@@ -6,9 +6,10 @@
 .login_box_primary{
     background-color: #f9f9f9;
     padding: 16px;
-    width: 25%;
+    width: 30%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 16px;
 }
 .login_box{
     background-color: #ffffff;
