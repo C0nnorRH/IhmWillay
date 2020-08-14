@@ -18,8 +18,7 @@ class NavBar  extends React.Component{
         </div>
         <nav id="nav-bar" >
             <Link to='/login' class="nav-link opcs"> Iniciar Sesión</Link> 
-            <Link to='/signup' class="nav-link opcs"> Registrarse</Link>    
-            <Link to='/login' class="nav-link opcs"> Contacto</Link>        
+            <Link to='/signup' class="nav-link opcs"> Registrarse</Link>         
         </nav>
         </div>
        );

@@ -33,7 +33,7 @@
 #nav-bar{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
     width: 35vw;
 }
 
